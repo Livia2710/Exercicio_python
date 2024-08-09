@@ -7,9 +7,9 @@ restaurantes = [{'nome': 'Praça', 'categoria': 'Japonesa', 'ativo': False},
                 {'nome': 'Cantina', 'categoria': 'Italiano', 'ativo': False}]
 
 def exibir_nome_do_programa():
-        print("""
-            𝑆𝑎𝑏𝑜𝑟 𝑒𝑥𝑝𝑟𝑒𝑠𝑠
-            """)
+    print("""
+    𝑆𝑎𝑏𝑜𝑟 𝑒𝑥𝑝𝑟𝑒𝑠𝑠
+    """)
         
 def exibir_opcoes():
     print('1. Cadastrar restaurante')
@@ -45,8 +45,8 @@ def main():
     exibir_opcoes()
     escolher_opcao()
 
-if __name__== '__main__':
-     main()
+if __name__ == '__main__':
+    main()
     
 # _______________________________________________________________________
 
