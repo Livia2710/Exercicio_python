@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import tkinter as tk
 from modelos.restaurante import Restaurante
 from modelos.avaliacao import Avaliacao
 
@@ -163,6 +164,18 @@ def excluir_restaurante():
             return
     print("Restaurante não encontrado. ")
 
+# ________________________________________________________________________
+
+
+    # Configuração da janela principal
+janela = tk.Tk() # Cria a janela principal
+janela.title("Calculadora Trigonométrica") # Define o titulo da janela
+janela.geometry("400x550") # Tamanho da janela
+janela.configure(bg="#f0f0f0")
+
+
 # Verifica se o script está sendo executado diretamente e chama a função principal
 if __name__ == '__main__':
     main()
+
+janela.mainloop()
